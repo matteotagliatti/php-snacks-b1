@@ -20,7 +20,7 @@
         <?php
             $para = explode(".", $para);
             foreach ($para as $p) {
-                echo "<p>$p.</p>";
+                echo "<p>$p</p>";
             }
         ?>
     </p>
