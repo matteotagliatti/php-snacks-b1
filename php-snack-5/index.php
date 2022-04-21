@@ -19,14 +19,12 @@ $para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a d
 </head>
 
 <body>
-    <p>
-        <?php
-        $para = explode(".", $para);
-        foreach ($para as $p) {
-            echo "<p>$p</p>";
-        }
-        ?>
-    </p>
+    <?php
+    $para = explode(".", $para);
+    foreach ($para as $p) {
+        echo "<p>$p</p>";
+    }
+    ?>
 </body>
 
 </html>

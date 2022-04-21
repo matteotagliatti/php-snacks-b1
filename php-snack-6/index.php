@@ -40,21 +40,19 @@ $db = [
 </head>
 
 <body>
-    <p>
-        <?php
-        foreach ($db['pm'] as $pm) {
-            echo "<div style='background-color: grey'>";
-            echo $pm['name'] . " " . $pm['lastname'];
-            echo "</div>";
-        }
+    <?php
+    foreach ($db['pm'] as $pm) {
+        echo "<div style='background-color: grey'>";
+        echo $pm['name'] . " " . $pm['lastname'];
+        echo "</div>";
+    }
 
-        foreach ($db['teachers'] as $teachers) {
-            echo "<div style='background-color: green'>";
-            echo $teachers['name'] . " " . $teachers['lastname'];
-            echo "</div>";
-        }
-        ?>
-    </p>
+    foreach ($db['teachers'] as $teachers) {
+        echo "<div style='background-color: green'>";
+        echo $teachers['name'] . " " . $teachers['lastname'];
+        echo "</div>";
+    }
+    ?>
 </body>
 
 </html>

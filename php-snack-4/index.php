@@ -21,13 +21,11 @@ $random_number_array = array_slice($random_number_array, 0, 15); // Get first 15
 </head>
 
 <body>
-    <p>
-        <?php
-        echo "<pre>";
-        print_r($random_number_array);
-        echo "</pre>";
-        ?>
-    </p>
+    <?php
+    echo "<pre>";
+    print_r($random_number_array);
+    echo "</pre>";
+    ?>
 </body>
 
 </html>
